@@ -4,8 +4,6 @@ $blue-navbar: rgb(41, 41, 77);
 $blue-navbar-border: rgb(72, 72, 122);
 $blue-media-bg: rgba(72, 72, 122, 0.5);
 
-// $content-width: ;
-
 body {
   background: $blue-bg fixed;
   background-attachment: fixed;
@@ -135,6 +133,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  font-size: 14px;
   height: 3em;
   margin: 50px 35px 0px;
   background-color: rgb(40, 40, 75);
@@ -310,8 +310,9 @@ img {
   }
 
   footer {
-    font-size: 18px;
+    font-size: 16px;
     height: 3em;
+    padding: 5px;
     margin: 50px 0px 0px;
     border-radius: 20px 20px 0px 0px;
   }
@@ -383,7 +384,7 @@ img {
 @media (min-width: 500px) and (max-width: 830px) {
   
   body {
-    font-size: 13px;
+    font-size: 15px;
   }
   
   .main-title {
@@ -451,6 +452,7 @@ img {
   }
 
   footer {
+    font-size: 12px;
     margin-top: 25px;
   }
 }

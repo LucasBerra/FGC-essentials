@@ -161,6 +161,8 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
+  font-size: 14px;
   height: 3em;
   margin: 50px 35px 0px;
   background-color: #28284b;
@@ -328,8 +330,9 @@ img {
     border: 1px solid #48487a;
   }
   footer {
-    font-size: 18px;
+    font-size: 16px;
     height: 3em;
+    padding: 5px;
     margin: 50px 0px 0px;
     border-radius: 20px 20px 0px 0px;
   }
@@ -388,7 +391,7 @@ img {
 
 @media (min-width: 500px) and (max-width: 830px) {
   body {
-    font-size: 13px;
+    font-size: 15px;
   }
   .main-title {
     font-size: 18px;
@@ -445,6 +448,7 @@ img {
     display: none;
   }
   footer {
+    font-size: 12px;
     margin-top: 25px;
   }
 }
